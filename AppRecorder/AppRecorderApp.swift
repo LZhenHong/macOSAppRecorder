@@ -5,11 +5,13 @@
 //  Created by Eden on 2024/3/25.
 //
 
-import SwiftUI
 import SwiftData
+import SwiftUI
 
 @main
 struct AppRecorderApp: App {
+    @NSApplicationDelegateAdaptor(AppDelegate.self) private var appDelegate
+
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,

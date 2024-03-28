@@ -13,6 +13,7 @@
 		F20754DD2BB1C6B80076C5AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F20754DC2BB1C6B80076C5AA /* Assets.xcassets */; };
 		F20754E02BB1C6B80076C5AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F20754DF2BB1C6B80076C5AA /* Preview Assets.xcassets */; };
 		F20754E82BB1C86A0076C5AA /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = F20754E72BB1C86A0076C5AA /* InfoPlist.xcstrings */; };
+		F20754EA2BB1CC050076C5AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F20754E92BB1CC050076C5AA /* AppDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		F20754DF2BB1C6B80076C5AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F20754E12BB1C6B80076C5AA /* AppRecorder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppRecorder.entitlements; sourceTree = "<group>"; };
 		F20754E72BB1C86A0076C5AA /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
+		F20754E92BB1CC050076C5AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F2F7F2972BB5580100504384 /* RecordKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RecordKit; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +43,7 @@
 		F20754CA2BB1C6B70076C5AA = {
 			isa = PBXGroup;
 			children = (
+				F2F7F2972BB5580100504384 /* RecordKit */,
 				F20754D52BB1C6B70076C5AA /* AppRecorder */,
 				F20754D42BB1C6B70076C5AA /* Products */,
 			);
@@ -57,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				F20754D62BB1C6B70076C5AA /* AppRecorderApp.swift */,
+				F20754E92BB1CC050076C5AA /* AppDelegate.swift */,
 				F20754D82BB1C6B70076C5AA /* ContentView.swift */,
 				F20754DA2BB1C6B70076C5AA /* Item.swift */,
 				F20754E72BB1C86A0076C5AA /* InfoPlist.xcstrings */,
@@ -148,6 +153,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F20754EA2BB1CC050076C5AA /* AppDelegate.swift in Sources */,
 				F20754D92BB1C6B70076C5AA /* ContentView.swift in Sources */,
 				F20754DB2BB1C6B70076C5AA /* Item.swift in Sources */,
 				F20754D72BB1C6B70076C5AA /* AppRecorderApp.swift in Sources */,
